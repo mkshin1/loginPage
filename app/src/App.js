@@ -9,7 +9,7 @@ function App() {
     <div class="App">
       <Header />
 
-      <div class="container d-flex align-items-center flex-column">
+      <div class="container d-flex align-items-center flex-row">
         <RegisterForm />
         <LoginForm />
       </div>
