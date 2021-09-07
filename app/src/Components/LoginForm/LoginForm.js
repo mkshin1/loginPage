@@ -20,7 +20,7 @@ function LoginForm() {
         <div class="card col-12 col-lg-4 login-card mt-2 hv-center">
             <form>
             <div class="form-group text left">
-                <label htmlFor="exampleInputEmail1">Email address</label>
+                <label id="special" htmlFor="exampleInputEmail1">Email address</label>
                 <input 
                 type="email"
                 class="form-control"
@@ -34,7 +34,7 @@ function LoginForm() {
             </div>
 
             <div class="form-group text-left">
-                <label htmlFor="exampleInputPassword1">Password</label>
+                <label  htmlFor="exampleInputPassword1">Password</label>
                 <input 
                 type="password"
                 class="form-control"
